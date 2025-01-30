@@ -2,7 +2,7 @@ cloreai/ubuntu20.04-jupyter
 
 
 apt-get update
-apt install rsync proxychains tmux -y
+apt install git proxychains tmux -y
 ssh -D 1080 -f -N clore@69.245.237.11 -p 46307
 git clone https://github.com/dkreder/quai.git
 cd quai
@@ -13,4 +13,4 @@ tmux
 rm -rf /etc/apt/sources.list.d/cuda-ubuntu2004-x86_64.list
 proxychains apt update
 proxychains apt install -y cuda-toolkit-12-4
-./output/quai-gpu-miner -U -P stratum://69.245.237.11:3333
+./output/quai-gpu-miner-nvidia -U -P stratum://69.245.237.11:3333
