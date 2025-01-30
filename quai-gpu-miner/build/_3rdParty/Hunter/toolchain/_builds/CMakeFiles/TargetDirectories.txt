@@ -1,0 +1,2 @@
+/home/clu/quai/quai-gpu-miner/build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/rebuild_cache.dir
+/home/clu/quai/quai-gpu-miner/build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/edit_cache.dir

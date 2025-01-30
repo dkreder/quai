@@ -1,0 +1,10 @@
+{
+  "name": "kawpowminer",
+  "version": "1.2.4+commit.0e7d056b",
+  "is_prerelease": true,
+  "commit": "0e7d056b809c576375167c2944ebeccc85110895",
+  "branch": "main",
+  "repo": "https://github.com/dominant-strategies/quai-gpu-miner",
+  "system_name": "linux",
+  "system_processor": "x86_64"
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc kawpowminer/libkawpowminer-buildinfo.a  CMakeFiles/kawpowminer-buildinfo.dir/kawpowminer/buildinfo.c.o
+/usr/bin/ranlib kawpowminer/libkawpowminer-buildinfo.a

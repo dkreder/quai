@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clu/quai/quai-gpu-miner/build/kawpowminer/buildinfo.c
+buildinfo.h
+/home/clu/quai/quai-gpu-miner/build/kawpowminer/buildinfo.h
+
+/home/clu/quai/quai-gpu-miner/build/kawpowminer/buildinfo.h
+

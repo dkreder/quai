@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+4545776e0760886b92706f891e1bc156 CMakeFiles/kawpowminer-buildinfo-git
+3f96b584b031d403adc2318c1dce88aa kawpowminer/buildinfo.c
+e684ae4fc28c364972b1ff0778f90e3a libethash-cuda/CMakeFiles/cuda_kernel
+89216b06e516315e94a45abf4950f8f0 libethash-cuda/CMakeFiles/ethash-cuda.dir/ethash-cuda_generated_CUDAMiner_cuda.cu.o
+0af408da5418f716fc2c26971b29a1a7 libethash-cuda/CUDAMiner_kernel.h

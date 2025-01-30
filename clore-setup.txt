@@ -1,0 +1,14 @@
+cloreai/ubuntu20.04-jupyter
+
+
+apt-get update
+apt install rsync tmux -y
+git clone https://github.com/dkreder/quai.git
+cd quai
+cat .tmux.conf > /root/.tmux.conf
+tmux
+./deploy_miner.sh
+rm -rf /etc/apt/sources.list.d/cuda-ubuntu2004-x86_64.list
+apt update
+apt install -y cuda-toolkit-12-4
+./output/quai-gpu-miner -U -P stratum://69.245.237.11:3333
