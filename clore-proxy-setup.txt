@@ -10,7 +10,7 @@ cat proxychains.conf > /etc/proxychains.conf
 cat .tmux.conf > /root/.tmux.conf
 tmux
 ./deploy_miner_proxychains.sh
-rm -rf /etc/apt/sources.list.d/cuda-ubuntu2004-x86_64.list
-proxychains apt update
-proxychains apt install -y cuda-toolkit-12-4
+# ----- rm -rf /etc/apt/sources.list.d/cuda-ubuntu2004-x86_64.list
+# ----- proxychains apt update
+# ----- proxychains apt install -y cuda-toolkit-12-4
 ./output/quai-gpu-miner-nvidia -U -P stratum://69.245.237.11:3333
