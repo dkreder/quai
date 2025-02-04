@@ -2,16 +2,16 @@
 
 sleep 15
 # Name of the tmux session and windows
-SESSION_NAME="minerx"
+SESSION_NAME="0"
 ADMIN_WINDOW="admin"
-MINER_WINDOW="11xP104-100"
+MINER_WINDOW="0"
 MONITOR_WINDOW="monitor"
 
 # Paths to the applications
-QUAI_MINER_PATH="/home/clu/quai"
+QUAI_MINER_PATH="/root/quai"
 
 # Commands to run the applications
-QUAI_MINER_COMMAND="./output/quai-gpu-miner-nvidia -U -P stratum://10.250.35.45:3333"
+QUAI_MINER_COMMAND="./output/quai-gpu-miner-nvidia -U -P stratum://69.245.237.11:3333"
 
 # Function to check if a session exists
 session_exists() {
