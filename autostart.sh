@@ -6,8 +6,8 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-SESSION_NAME="$1"
-WINDOW_NAME="$2"
+SESSION_NAME_ARG="$1"
+WINDOW_NAME_ARG="$2"
 
 # Ensure /root/bin exists
 BIN_DIR="/root/bin"
@@ -21,18 +21,13 @@ fi
 # Write the script to /root/bin/startminer.sh
 cat <<EOF > "$SCRIPT_PATH"
 
-# Name of the tmux session and window
-SESSION_NAME="$SESSION_NAME"
-WINDOW_NAME="$WINDOW_NAME"
-
-
 #!/bin/bash                                                                                                                                                                                                                                     │··
                                                                                                                                                                                                                                                 │··
 sleep 15                                                                                                                                                                                                                                        │··
 # Name of the tmux session and windows                                                                                                                                                                                                          │··
-SESSION_NAME="$SESSION_NAME"                                                                                                                                                                                                                           │··
+SESSION_NAME="$SESSION_NAME_ARG"                                                                                                                                                                                                                           │··
 ADMIN_WINDOW="admin"                                                                                                                                                                                                                            │··
-MINER_WINDOW="$WINDOW_NAME"                                                                                                                                                                                                                      │··
+MINER_WINDOW="$WINDOW_NAME_ARG"                                                                                                                                                                                                                      │··
 MONITOR_WINDOW="monitor"                                                                                                                                                                                                                        │··
                                                                                                                                                                                                                                                 │··
 # Paths to the applications                                                                                                                                                                                                                     │··
